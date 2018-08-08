@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-class Suite" duration-ms="39" started-at="2018-08-08T15:09:42Z" finished-at="2018-08-08T15:09:42Z">
+    <groups>
+    </groups>
+    <test name="Test-class test" duration-ms="39" started-at="2018-08-08T15:09:42Z" finished-at="2018-08-08T15:09:42Z">
+      <class name="com.ekw.test.flow.ParallelClassesTestOne">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestOne@548b7f67]" name="beforeClass" is-config="true" duration-ms="6" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testMethodOneA()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestOne@548b7f67]" name="testMethodOneA" duration-ms="5" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOneA -->
+        <test-method status="PASS" signature="testMethodTwoA()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestOne@548b7f67]" name="testMethodTwoA" duration-ms="1" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwoA -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestOne@548b7f67]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ekw.test.flow.ParallelClassesTestOne -->
+      <class name="com.ekw.test.flow.ParallelClassesTestTwo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestTwo@7ac7a4e4]" name="beforeClass" is-config="true" duration-ms="6" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testMethodOneB()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestTwo@7ac7a4e4]" name="testMethodOneB" duration-ms="4" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOneB -->
+        <test-method status="PASS" signature="testMethodTwoB()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestTwo@7ac7a4e4]" name="testMethodTwoB" duration-ms="1" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwoB -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ekw.test.flow.ParallelClassesTestTwo@7ac7a4e4]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-08T08:09:42Z" finished-at="2018-08-08T08:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ekw.test.flow.ParallelClassesTestTwo -->
+    </test> <!-- Test-class test -->
+  </suite> <!-- Test-class Suite -->
+</testng-results>
